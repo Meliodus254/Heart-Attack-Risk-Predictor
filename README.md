@@ -25,46 +25,46 @@ Deployed to Streamlit Cloud for easy access
 
 The model uses the following inputs to make predictions:
 
-Feature	Description
 
-Age	Your age in years
 
-Sex	Male or Female
+-Age	Your age in years
 
-Chest Pain Type	Type of chest pain experienced (e.g., typical angina, asymptomatic, etc.)
+-Sex	Male or Female
 
-Resting Blood Pressure	Measured in mm Hg
+-Chest Pain Type	Type of chest pain experienced (e.g., typical angina, asymptomatic, etc.)
 
-Cholesterol	Serum cholesterol in mg/dl (requires a blood test)
+-Resting Blood Pressure 	Measured in mm Hg
 
-Fasting Blood Sugar	> 120 mg/dl (requires a blood test)
+-Cholesterol	Serum cholesterol in mg/dl (requires a blood test)
 
-Resting ECG Results	Results from resting electrocardiogram
+-Fasting Blood Sugar	> 120 mg/dl (requires a blood test)
 
-Maximum Heart Rate Achieved	Typically measured during a stress test
+-Resting ECG Results	Results from resting electrocardiogram
 
-Exercise Induced Angina	Chest pain during exercise
+-Maximum Heart Rate Achieved	Typically measured during a stress test
 
-Oldpeak	ST depression induced by exercise relative to rest
+-Exercise Induced Angina	Chest pain during exercise
 
-Slope of ST Segment	Slope of the peak exercise ST segment
+-Oldpeak	ST depression induced by exercise relative to rest
 
-Number of Major Vessels	Detected by fluoroscopy (0–3)
+-Slope of ST Segment	Slope of the peak exercise ST segment
 
-Thalassemia	A blood disorder measured via blood tests or scans
+-Number of Major Vessels	Detected by fluoroscopy (0–3)
+
+-Thalassemia	A blood disorder measured via blood tests or scans
 
 
 🧪 How to Get the Medical Values
 
 Some values require medical tests:
 
-Cholesterol and Fasting Blood Sugar: Ask for a basic lipid panel and glucose test at a clinic or hospital.
+-Cholesterol and Fasting Blood Sugar: Ask for a basic lipid panel and glucose test at a clinic or hospital.
 
-Resting ECG & ST Depression: Performed during an electrocardiogram (ECG).
+-Resting ECG & ST Depression: Performed during an electrocardiogram (ECG).
 
-Maximum Heart Rate Achieved & ST Slope: These are measured during a stress test.
+-Maximum Heart Rate Achieved & ST Slope: These are measured during a stress test.
 
-Thalassemia: Identified through a thalassemia screening or genetic test.
+-Thalassemia: Identified through a thalassemia screening or genetic test.
 
 Please consult your doctor or medical professional for help acquiring this data.
 
@@ -72,6 +72,7 @@ Please consult your doctor or medical professional for help acquiring this data.
 🛠️ Running Locally
 
 Prerequisites
+
 
 Python 3.8+
 
@@ -100,9 +101,13 @@ Setup
 📁 Project Structure
 
 ├── app.py                  # Streamlit app
+
 ├── model.pkl               # Trained ML model
+
 ├── requirements.txt        # Python dependencies
+
 ├── README.md               # Project documentation
+
 
 
 🙏 Acknowledgements
@@ -114,4 +119,5 @@ Streamlit for the amazing UI framework
 scikit-learn for ML tools
 
 📬 Contact
+
 For questions, feel free to reach out via GitHub or open an issue.
