@@ -5,7 +5,8 @@ This project is a machine learning-powered web application that predicts the lik
 
 🌐 Try the live demo:
 
-👉 heart-attack-risk-predictor.streamlit.app
+Check out the live app here: [Heart Attack Risk Predictor](https://heart-attack-risk-predictor.streamlit.app)
+
 
 
 📊 Features
